@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C388D3161DC9318C000539B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388D3151DC9318C000539B5 /* AppDelegate.swift */; };
+		C388D3181DC9318C000539B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388D3171DC9318C000539B5 /* ViewController.swift */; };
+		C388D31B1DC9318C000539B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C388D3191DC9318C000539B5 /* Main.storyboard */; };
+		C388D31E1DC9318C000539B5 /* Soy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C388D31C1DC9318C000539B5 /* Soy.xcdatamodeld */; };
+		C388D3201DC9318C000539B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C388D31F1DC9318C000539B5 /* Assets.xcassets */; };
+		C388D3231DC9318C000539B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C388D3211DC9318C000539B5 /* LaunchScreen.storyboard */; };
+		C388D32E1DC9318C000539B5 /* SoyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388D32D1DC9318C000539B5 /* SoyTests.swift */; };
+		C388D3391DC9318C000539B5 /* SoyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388D3381DC9318C000539B5 /* SoyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C388D32A1DC9318C000539B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C388D30A1DC9318B000539B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C388D3111DC9318C000539B5;
+			remoteInfo = Soy;
+		};
+		C388D3351DC9318C000539B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C388D30A1DC9318B000539B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C388D3111DC9318C000539B5;
+			remoteInfo = Soy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C388D3121DC9318C000539B5 /* Soy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C388D3151DC9318C000539B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C388D3171DC9318C000539B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C388D31A1DC9318C000539B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C388D31D1DC9318C000539B5 /* Soy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Soy.xcdatamodel; sourceTree = "<group>"; };
+		C388D31F1DC9318C000539B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C388D3221DC9318C000539B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C388D3241DC9318C000539B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C388D3291DC9318C000539B5 /* SoyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C388D32D1DC9318C000539B5 /* SoyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoyTests.swift; sourceTree = "<group>"; };
+		C388D32F1DC9318C000539B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C388D3341DC9318C000539B5 /* SoyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C388D3381DC9318C000539B5 /* SoyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoyUITests.swift; sourceTree = "<group>"; };
+		C388D33A1DC9318C000539B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C388D30F1DC9318C000539B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C388D3261DC9318C000539B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C388D3311DC9318C000539B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C388D3091DC9318B000539B5 = {
+			isa = PBXGroup;
+			children = (
+				C388D3141DC9318C000539B5 /* Soy */,
+				C388D32C1DC9318C000539B5 /* SoyTests */,
+				C388D3371DC9318C000539B5 /* SoyUITests */,
+				C388D3131DC9318C000539B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C388D3131DC9318C000539B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C388D3121DC9318C000539B5 /* Soy.app */,
+				C388D3291DC9318C000539B5 /* SoyTests.xctest */,
+				C388D3341DC9318C000539B5 /* SoyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C388D3141DC9318C000539B5 /* Soy */ = {
+			isa = PBXGroup;
+			children = (
+				C388D3151DC9318C000539B5 /* AppDelegate.swift */,
+				C388D3171DC9318C000539B5 /* ViewController.swift */,
+				C388D3191DC9318C000539B5 /* Main.storyboard */,
+				C388D31F1DC9318C000539B5 /* Assets.xcassets */,
+				C388D3211DC9318C000539B5 /* LaunchScreen.storyboard */,
+				C388D3241DC9318C000539B5 /* Info.plist */,
+				C388D31C1DC9318C000539B5 /* Soy.xcdatamodeld */,
+			);
+			path = Soy;
+			sourceTree = "<group>";
+		};
+		C388D32C1DC9318C000539B5 /* SoyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C388D32D1DC9318C000539B5 /* SoyTests.swift */,
+				C388D32F1DC9318C000539B5 /* Info.plist */,
+			);
+			path = SoyTests;
+			sourceTree = "<group>";
+		};
+		C388D3371DC9318C000539B5 /* SoyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C388D3381DC9318C000539B5 /* SoyUITests.swift */,
+				C388D33A1DC9318C000539B5 /* Info.plist */,
+			);
+			path = SoyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C388D3111DC9318C000539B5 /* Soy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C388D33D1DC9318C000539B5 /* Build configuration list for PBXNativeTarget "Soy" */;
+			buildPhases = (
+				C388D30E1DC9318C000539B5 /* Sources */,
+				C388D30F1DC9318C000539B5 /* Frameworks */,
+				C388D3101DC9318C000539B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soy;
+			productName = Soy;
+			productReference = C388D3121DC9318C000539B5 /* Soy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C388D3281DC9318C000539B5 /* SoyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C388D3401DC9318C000539B5 /* Build configuration list for PBXNativeTarget "SoyTests" */;
+			buildPhases = (
+				C388D3251DC9318C000539B5 /* Sources */,
+				C388D3261DC9318C000539B5 /* Frameworks */,
+				C388D3271DC9318C000539B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C388D32B1DC9318C000539B5 /* PBXTargetDependency */,
+			);
+			name = SoyTests;
+			productName = SoyTests;
+			productReference = C388D3291DC9318C000539B5 /* SoyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C388D3331DC9318C000539B5 /* SoyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C388D3431DC9318C000539B5 /* Build configuration list for PBXNativeTarget "SoyUITests" */;
+			buildPhases = (
+				C388D3301DC9318C000539B5 /* Sources */,
+				C388D3311DC9318C000539B5 /* Frameworks */,
+				C388D3321DC9318C000539B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C388D3361DC9318C000539B5 /* PBXTargetDependency */,
+			);
+			name = SoyUITests;
+			productName = SoyUITests;
+			productReference = C388D3341DC9318C000539B5 /* SoyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C388D30A1DC9318B000539B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ZhunengJ;
+				TargetAttributes = {
+					C388D3111DC9318C000539B5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T3LM9U44A2;
+						ProvisioningStyle = Automatic;
+					};
+					C388D3281DC9318C000539B5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T3LM9U44A2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C388D3111DC9318C000539B5;
+					};
+					C388D3331DC9318C000539B5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T3LM9U44A2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C388D3111DC9318C000539B5;
+					};
+				};
+			};
+			buildConfigurationList = C388D30D1DC9318B000539B5 /* Build configuration list for PBXProject "Soy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C388D3091DC9318B000539B5;
+			productRefGroup = C388D3131DC9318C000539B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C388D3111DC9318C000539B5 /* Soy */,
+				C388D3281DC9318C000539B5 /* SoyTests */,
+				C388D3331DC9318C000539B5 /* SoyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C388D3101DC9318C000539B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C388D3231DC9318C000539B5 /* LaunchScreen.storyboard in Resources */,
+				C388D3201DC9318C000539B5 /* Assets.xcassets in Resources */,
+				C388D31B1DC9318C000539B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C388D3271DC9318C000539B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C388D3321DC9318C000539B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C388D30E1DC9318C000539B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C388D3181DC9318C000539B5 /* ViewController.swift in Sources */,
+				C388D31E1DC9318C000539B5 /* Soy.xcdatamodeld in Sources */,
+				C388D3161DC9318C000539B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C388D3251DC9318C000539B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C388D32E1DC9318C000539B5 /* SoyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C388D3301DC9318C000539B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C388D3391DC9318C000539B5 /* SoyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C388D32B1DC9318C000539B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C388D3111DC9318C000539B5 /* Soy */;
+			targetProxy = C388D32A1DC9318C000539B5 /* PBXContainerItemProxy */;
+		};
+		C388D3361DC9318C000539B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C388D3111DC9318C000539B5 /* Soy */;
+			targetProxy = C388D3351DC9318C000539B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C388D3191DC9318C000539B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C388D31A1DC9318C000539B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C388D3211DC9318C000539B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C388D3221DC9318C000539B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C388D33B1DC9318C000539B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C388D33C1DC9318C000539B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C388D33E1DC9318C000539B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T3LM9U44A2;
+				INFOPLIST_FILE = Soy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhunengJ.Soy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C388D33F1DC9318C000539B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T3LM9U44A2;
+				INFOPLIST_FILE = Soy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhunengJ.Soy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C388D3411DC9318C000539B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T3LM9U44A2;
+				INFOPLIST_FILE = SoyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhunengJ.SoyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soy.app/Soy";
+			};
+			name = Debug;
+		};
+		C388D3421DC9318C000539B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T3LM9U44A2;
+				INFOPLIST_FILE = SoyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhunengJ.SoyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soy.app/Soy";
+			};
+			name = Release;
+		};
+		C388D3441DC9318C000539B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T3LM9U44A2;
+				INFOPLIST_FILE = SoyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhunengJ.SoyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Soy;
+			};
+			name = Debug;
+		};
+		C388D3451DC9318C000539B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T3LM9U44A2;
+				INFOPLIST_FILE = SoyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhunengJ.SoyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Soy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C388D30D1DC9318B000539B5 /* Build configuration list for PBXProject "Soy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C388D33B1DC9318C000539B5 /* Debug */,
+				C388D33C1DC9318C000539B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C388D33D1DC9318C000539B5 /* Build configuration list for PBXNativeTarget "Soy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C388D33E1DC9318C000539B5 /* Debug */,
+				C388D33F1DC9318C000539B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C388D3401DC9318C000539B5 /* Build configuration list for PBXNativeTarget "SoyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C388D3411DC9318C000539B5 /* Debug */,
+				C388D3421DC9318C000539B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C388D3431DC9318C000539B5 /* Build configuration list for PBXNativeTarget "SoyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C388D3441DC9318C000539B5 /* Debug */,
+				C388D3451DC9318C000539B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C388D31C1DC9318C000539B5 /* Soy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C388D31D1DC9318C000539B5 /* Soy.xcdatamodel */,
+			);
+			currentVersion = C388D31D1DC9318C000539B5 /* Soy.xcdatamodel */;
+			path = Soy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C388D30A1DC9318B000539B5 /* Project object */;
+}
