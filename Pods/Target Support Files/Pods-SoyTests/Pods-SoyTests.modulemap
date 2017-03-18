@@ -1,0 +1,6 @@
+framework module Pods_SoyTests {
+  umbrella header "Pods-SoyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
